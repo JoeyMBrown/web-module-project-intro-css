@@ -46,3 +46,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* End CSS Reset */
+
+.firstLink {
+    background-color: #FF764E;
+}
+
+.secondLink {
+    background-color: #5ED3EB;
+}
+
+.thirdLink {
+    background-color: #FFCD69;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+header img{
+    border-radius: 50%;
+}
+
+footer a, nav a{
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+main {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
