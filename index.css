@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid black;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%; /*The default browser font size is 16px 1rem = 10px / since % is scalable it gives the user control
+     over bumping up and down the font-size - makes maths easier and makes our website more accessible.*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-size: 1.6rem;
+    color: #4F4F4F;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Element Selectors*/
+h1 {
+    font-size: 8rem;
+    color: black;
+}
+h2 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 2rem;
+}
+a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+span {
+    font-weight: bold;
+    color: black;
+}
+nav {
+    margin: 2% 0;
+}
+footer {
+    background-color: #F9E7DC;
+}
+footer a {
+    margin: 2% 0;
+}
+nav a, footer a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+}
+/*Class Selectors*/
+.top {
+    position:relative;
+    margin-top: 5%;
+}
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%
+}
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+.headerImage {
+    display: inline-block;
+    width: 26.5%;
+    text-align:center;
+    margin-left: -60%;
+}
+.headerImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 70%;
+}
+.paragraphOne {
+    display: inline-block;
+    width: 60%;
+    position:absolute;
+    margin-right: 5%;
+    top:20%;
+}
+.paragraphOneContainer p{
+    margin: 2% 30%;
+}
+.paragraphOne h1{
+    font-family: 'Chelsea Market', cursive;
+}
+.paragraphTwo {
+    background-color: #DDB9A3;
+    color: white;
+    margin: 4% 5%;
+    padding: 1%;
+}
+.paragraphTwo p{
+    margin: 1% 0;
+}
+.fireImage,.carImage{
+    margin: 1% 5%;
+}
+.fireImage p, .carImage p{
+    margin: 1% 33.9%;
+}
+.fireImage img,.carImage img{
+    width: 25%;
+}
+
+/*Background image section*/
+.footerImg {
+    height: 50vh;
+    background-image:url("assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 1% 0;
+}
+
+
